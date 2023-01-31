@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+.app {
+    background-color: #1a1b21;
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info>img {
+    width: 340px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name {
+    color: white;
+    font-size: 25px;
+    margin: 20px auto 3px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.job {
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 14.19px;
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.website {
+    color: #F5F5F5;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 8px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons {
+    width: 250px;
+    margin: 15px auto;
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+}
+
+.buttons>button {
+    border-radius: 6px;
+    width: 115px;
+    border: none;
+    line-height: 35px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.button-email {
+    color: #374151;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.button-linkedin {
+    background-color: #5093e2;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.img-button-email {
+    padding-right: 10px;
+    width: 25px;
+    border-radius: 0;
+    vertical-align: middle;
+    margin: 0px 0px 4px 0px;
+}
+
+.img-button-linkedin {
+    padding-right: 10px;
+    height: 20px;
+    border-radius: 0;
+    vertical-align: middle;
+    margin: 0px 0px 4px 0px;
+}
+
+.about,
+.interests {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.about-title,
+.interests-title {
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 25px 0 5px 0;
+    text-align: left;
+}
+
+.about-p,
+.interests-p {
+    color: #DCDCDC;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0;
+    text-align: left;
+}
+
+footer {
+    height: 64px;
+    background-color: #161619;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 20px auto;
+}
+
+footer>img {
+    margin: 19px 12px auto 12px;
 }
