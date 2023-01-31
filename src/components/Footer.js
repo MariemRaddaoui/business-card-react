@@ -10,7 +10,7 @@ export default function Footer(){
             <img src={twitter} alt="Twitter" />
 			<img src={facebook} alt="Facebook" />
 			<img src={instagram} alt="Instagram" />
-			<img src={github} alt="GitHub" />
+			<img src={github} alt="GitHub" style={{cursor:'pointer'}} onClick={()=>window.open("https://github.com/MariemRaddaoui")}/>
         </footer>
     )
 }

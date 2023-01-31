@@ -13,7 +13,7 @@ export default function Info(){
                 <button className="button-email">
                     <img className="img-button-email" src={email} alt="pic"/>Email
                 </button>
-                <button className="button-linkedin">
+                <button className="button-linkedin" style={{cursor:'pointer'}} onClick={()=> window.open("https://www.linkedin.com/in/mariem-raddaoui/","Popup")}>
 					<img
 						className="img-button-linkedin" src={linkedin} alt="pic"/>LinkedIn
 				</button>
